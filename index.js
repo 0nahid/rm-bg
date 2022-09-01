@@ -20,7 +20,4 @@ app.get('/api/removebg', (req, res) => {
 })
 
 
-app.listen(port, () => {
-	console.log(App listening at http://localhost:${port})
-	
-})
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
